@@ -499,8 +499,32 @@ footer p a {
     text-decoration: none;
 }
 
+
 footer p a:hover {
     text-decoration: underline;
+}
+
+.footer-locations {
+    margin-top: 10px;
+}
+
+.loc-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.loc-grid>div {
+    flex: 1;
+}
+
+.loc-grid p {
+    margin: 0;
+}
+
+.loc-label {
+    display: block;
+    color: #f5efe2;
+    margin-bottom: 4px;
 }
 
 .sm-links a {
@@ -653,6 +677,11 @@ footer p a:hover {
 
     .leader-text h2 {
         font-size: 24px;
+    }
+
+    .loc-grid {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
